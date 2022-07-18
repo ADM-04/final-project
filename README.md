@@ -16,3 +16,4 @@ Se abre el proyecto desde VSCode, para correr las pruebas se va a la carpeta Cat
 • dotnet test
 
 # • ¿Cómo desplegarlo? 
+Una vez hecho un commit el deployment se realiza de manera automática gracias a las github actions. 
