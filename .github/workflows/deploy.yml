@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        email: carlosroque198@gmail.com
+        heroku_email: carlosroque198@gmail.com
         heroku_api_key: 9c290e67-f188-47fd-bcd3-df00d584f702
         heroku_app_name: configuracion-final
   stage:
@@ -24,7 +24,7 @@ jobs:
     - uses: actions/checkout@v3
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        email: carlosroque198@gmail.com
+        heroku_email: carlosroque198@gmail.com
         heroku_api_key: 9c290e67-f188-47fd-bcd3-df00d584f702
         heroku_app_name: configuracion-final
   prod:
@@ -35,6 +35,6 @@ jobs:
     - uses: actions/checkout@v3
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        email: carlosroque198@gmail.com
+        heroku_email: carlosroque198@gmail.com
         heroku_api_key: 9c290e67-f188-47fd-bcd3-df00d584f702
         heroku_app_name: configuracion-final
