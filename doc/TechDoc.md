@@ -11,3 +11,8 @@ El número representa el MAJOR.MINOR.PATCH, estos incrementan de acuerdo con:
 
 # • Descripción de las etapas del pipeline.
 
+El pipeline principal cuenta de 2 etapas principales las cuales son build y deploy.
+
+En la etapa de build el proyecto primero se reaturan las depenencia, luego se ejecuta el build y por ultimo se ejecutan las pruebas definidas a la aplicacion. 
+
+Luego de que la primera etapara es completada satisfactoriamente, el pipeline procede a la etapa 2 que es el deployment, en este se autentica en la herramienta de deployment para poder pushear los cambios y correr el deploy.
