@@ -13,9 +13,9 @@ jobs:
     - uses: actions/checkout@v3
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        email: ${{ secrets.HEROKU_EMAIL }}
-        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+        email: carlosroque198@gmail.com
+        heroku_api_key: 9c290e67-f188-47fd-bcd3-df00d584f702
+        heroku_app_name: configuracion-final
   stage:
     needs: dev
     runs-on: ubuntu-latest
@@ -24,9 +24,9 @@ jobs:
     - uses: actions/checkout@v3
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        email: ${{ secrets.HEROKU_EMAIL }}
-        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+        email: carlosroque198@gmail.com
+        heroku_api_key: 9c290e67-f188-47fd-bcd3-df00d584f702
+        heroku_app_name: configuracion-final
   prod:
     needs: stage
     runs-on: ubuntu-latest
@@ -35,6 +35,6 @@ jobs:
     - uses: actions/checkout@v3
     - uses: akhileshns/heroku-deploy@v3.12.12
       with:
-        email: ${{ secrets.HEROKU_EMAIL }}
-        heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
-        heroku_app_name: ${{ secrets.HEROKU_APP_NAME }}
+        email: carlosroque198@gmail.com
+        heroku_api_key: 9c290e67-f188-47fd-bcd3-df00d584f702
+        heroku_app_name: configuracion-final
